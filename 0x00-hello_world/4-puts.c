@@ -1,4 +1,4 @@
-int puts(const char *str)
+#include <stdio.h>
 
 int main(void) 
 {
