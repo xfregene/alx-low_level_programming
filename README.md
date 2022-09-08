@@ -1,1 +1,1 @@
-This repo contains files for my ALX Lowe Level Programming projects
+This repo contains files for my ALX Low Level Programming projects
