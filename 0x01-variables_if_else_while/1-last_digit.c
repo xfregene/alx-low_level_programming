@@ -12,7 +12,7 @@ int main(void)
 	int n, ld;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;	
+	n = rand() - RAND_MAX / 2;
 	/*Conditional expression to print last digit */
 	ld = n % 10;
 	if (ld > 5)
