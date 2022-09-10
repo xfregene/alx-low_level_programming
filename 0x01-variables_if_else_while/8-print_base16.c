@@ -9,10 +9,16 @@ int main(void)
 {
 	int hex;
 
-	hex = 0x0;
-	while (hex <= 0xf)
+	hex = '0';
+	while (hex <= '9')
 	{
-		putchar(hex + '0');
+		putchar(hex);
+		hex++;
+	}
+	hex = 'a';
+	while (hex <= 'f')
+	{
+		putchar(hex);
 		hex++;
 	}
 	putchar('\n');
