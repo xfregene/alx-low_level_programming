@@ -15,11 +15,12 @@ int main(void)
 		{
 			putchar(num1);
 			putchar(num2);
-		}
-		if (num1 < '8')
-		{
-			putchar(',');
-			putchar(' ');
+
+			if (num1 < '8')
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
