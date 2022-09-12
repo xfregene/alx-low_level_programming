@@ -18,10 +18,10 @@ int main(void)
 		}
 		if (num1 < '8')
 		{
-			putchar(",");
-			putchar(" ");
+			putchar(',');
+			putchar(' ');
 		}
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
