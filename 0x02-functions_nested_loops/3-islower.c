@@ -3,6 +3,8 @@
 /**
 * _islower - checks for lowercase character
 *
+* @c: is the value argument
+*
 * Return: 1 for lowercase. 0 for not lowercase
 */
 int _islower(int c)
@@ -13,6 +15,6 @@ int _islower(int c)
 	}
 	else
 	{
-		return(0);
+		return (0);
 	}
 }
