@@ -19,7 +19,6 @@ int _abs(int n)
 	}
 	else
 	{
-		_putchar(n + '0');
 		return (n);
 	}
 	_putchar('\n');
