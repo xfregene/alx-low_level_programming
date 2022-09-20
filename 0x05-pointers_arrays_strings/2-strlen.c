@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _strlen -
+* _strlen - Count string length
 * Description: Returns the length of a string
 * @s: input pointer value
 * Return: len
