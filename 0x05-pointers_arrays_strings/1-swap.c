@@ -2,9 +2,9 @@
 
 /**
 * swap_int -
-* Description:
-* @a:
-* @b:
+* Description: swaps the value of two integers
+* @a: input pointer value
+* @b: input pointer value
 * Return: void
 */
 void swap_int(int *a, int *b)
