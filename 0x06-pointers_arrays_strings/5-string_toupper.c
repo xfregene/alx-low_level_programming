@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* string_toupper - 
+* string_toupper - Change lowercase characters to uppercase
 * @n: pointer
 *
 * Return: n
@@ -14,7 +14,7 @@ char *string_toupper(char *n)
 	{
 		if (n[i] >= 'a' && n[i] <= 'z')
 		{
-			n[i] = -= 32;
+			n[i] -= 32;
 		}
 	}
 	return (n);
