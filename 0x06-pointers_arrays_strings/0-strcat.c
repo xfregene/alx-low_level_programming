@@ -13,6 +13,7 @@ char *_strcat(char *dest, char *src)
 	{
 		if (*dest == '\0')
 		{
+			dest--;
 			dest += *src;
 		}
 		dest++;
