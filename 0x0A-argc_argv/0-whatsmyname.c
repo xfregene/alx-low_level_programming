@@ -9,7 +9,7 @@
 */
 int main(int argc, char *argv[])
 {
-	printf("This program is called: \"%s\"\n", argv[0]);
+	printf("This program is called: %s\n", argv[0]);
 
 	return (0);
 }
